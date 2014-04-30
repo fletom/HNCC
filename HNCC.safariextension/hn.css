@@ -1,0 +1,26 @@
+.hncc-handle {
+	cursor: pointer;
+	margin-left: 5px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.hncc-handle.collapse {
+	display: inline;
+}
+
+.hncc-handle.expand {
+	display: none;
+}
+
+.hncc-collapsed .hncc-handle.collapse {
+	display: none;
+}
+
+.hncc-collapsed .hncc-handle.expand {
+	display: inline;
+}
+
+.hncc-collapsed td.default .comment, .hncc-collapsed td.default p {
+	display: none;
+}
